@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Pokedex Guide</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sniglet:wght@400;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="app">
+      <h1>Pokedex Guide</h1>
+
+      <div class="search">
+        <i class="fa-solid fa-binoculars searchIcon"></i>
+        <input
+          type="text"
+          id="searchInput"
+          class="searchInput"
+          placeholder="Search Pokémon..."
+          autocomplete="off"
+        />
+      </div>
+
+      <p class="status" id="status">Loading Pokémon...</p>
+
+      <section class="poke-container" id="pokeContainer"></section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
